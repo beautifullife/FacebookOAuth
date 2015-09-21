@@ -49,11 +49,14 @@ Author
 ------------
 
 Doan Phan Cong Minh.
+
 Dung Nguyen.
 
 Website
 ------------
 
-sheetmusic4you.net.
-vietnamcoffeeplace.com.
-saledream.com.
+http://sheetmusic4you.net
+
+http://vietnamcoffeeplace.com
+
+http://saledream.com
