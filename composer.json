@@ -1,0 +1,22 @@
+{
+    "name": "beautifullife/FacebookOAuth",
+    "description": "FacebookOAuth plugin for CakePHP 3.x",
+    "type": "cakephp-plugin",
+    "require": {
+        "facebook/php-sdk-v4" : "~5.0"
+    },
+    "require-dev": {
+        "facebook/php-sdk-v4" : "~5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "FacebookOAuth\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "FacebookOAuth\\Test\\": "tests",
+            "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
+        }
+    }
+}
