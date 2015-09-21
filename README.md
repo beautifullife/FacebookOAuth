@@ -34,22 +34,26 @@ composer update
 Change your configs
 ------------
 
-Opening file: FacebookOAuth/src/Controller/FloginController.php for edit
+Opening file: FacebookOAuth/src/Controller/FloginController.php for edit.
 Change:
+
+```
 FB_APP_ID      = 'your_app_id';
 FB_APP_SECRET  = 'your_app_secret';
 FB_APP_URL     = 'your_app_url';
+```
 
-After login successful, you can get session 'fb_user' to process your app
+After login successful, you can get session 'fb_user' to process your app.
 
 Author
 ------------
 
-Doan Phan Cong Minh
-Dung Nguyen
+Doan Phan Cong Minh.
+Dung Nguyen.
 
 Website
 ------------
-sheetmusic4you.net
-vietnamcoffeeplace.com
-saledream.com
+
+sheetmusic4you.net.
+vietnamcoffeeplace.com.
+saledream.com.
