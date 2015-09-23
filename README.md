@@ -43,6 +43,12 @@ FB_APP_SECRET  = 'your_app_secret';
 FB_APP_URL     = 'your_app_url';
 ```
 
+In config/boostrap.php, add code:
+
+```
+Plugin::load('FacebookOAuth', ['bootstrap' => false, 'routes' => true]);
+```
+
 After login successful, you can get session 'fb_user' to process your app.
 
 Author
