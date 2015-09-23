@@ -6,24 +6,9 @@ session_start();
 
 require_once ROOT . DS . 'plugins' . DS . 'FacebookOAuth' . DS . 'vendor' . DS . 'autoload.php';
 
-use FacebookOAuth\Controller\AppController;
-
 use Facebook\Facebook;
-use Facebook\HttpClients\FacebookCurl;
-use Facebook\HttpClients\FacebookCurlHttpClient;
-
-use Facebook\Authentication\AccessToken;
-use Facebook\SignedRequest;
-
-use Facebook\Helpers\FacebookRedirectLoginHelper;
-use Facebook\FacebookRequest;
-use Facebook\FacebookResponse;
 use Facebook\Exceptions\FacebookSDKException;
 use Facebook\Exceptions\FacebookResponseException;
-use Facebook\Exceptions\FacebookOtherException;
-use Facebook\Exceptions\FacebookAuthorizationException;
-use Facebook\GraphNodes\GraphObject;
-use Facebook\GraphNodes\GraphSessionInfo;
 
 /**
  * Flogin Controller
